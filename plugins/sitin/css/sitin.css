@@ -1,0 +1,44 @@
+#classroom {
+    text-align: center;
+}
+
+.desk-row {
+    display: inline-block;
+}
+
+.desk {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #b69315;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2px;
+    text-align: center;
+}
+
+.pupil {
+    position: relative;
+    font-size: 10px;
+}
+
+.pupil img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+}
+
+.pupil span {
+    text-align: center;
+    margin-left: 20px;
+    display: inline-block;
+    width: 65px;
+    word-wrap: break-spaces;
+}
+
+#teacher {
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+}
